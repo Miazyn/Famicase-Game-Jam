@@ -1,0 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "Fish", menuName = "Item/Fish")]
+public class SO_ItemFish : SO_Items
+{
+    public int difficulty;
+}
